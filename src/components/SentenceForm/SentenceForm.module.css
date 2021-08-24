@@ -1,0 +1,33 @@
+.sentenceForm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.sentenceForm input {
+  height: 25px;
+  border-color: rgb(51, 54, 110);
+}
+
+.sentenceForm input.invalid {
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.541);
+  border-color: rgb(136, 95, 95);
+}
+
+.sentenceForm div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 80%;
+  line-height: 200%;
+  position: relative;
+}

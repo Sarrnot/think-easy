@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 440px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
